@@ -64,12 +64,12 @@ Ejecutar:
 - Escribe un comando en la terminal y presiona `Enter` para ejecutarlo.
 - Escribe `salir` para cerrar la aplicación.
 - Comandos de ejemplo:
-  - `ls -l`
-  -`echo "Hola Mundo"`
-  -`pwd`
-  -`dir`
-  -`find`
-  -`locale`
+  `ls -l`
+  `echo "Hola Mundo"`
+  `pwd`
+  `dir`
+  `find`
+  `locale`
 
 ## Notas
 - En Windows, `ncurses` no está disponible, por lo que se usa `PDCurses`.
