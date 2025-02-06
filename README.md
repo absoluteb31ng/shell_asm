@@ -75,6 +75,16 @@ Ejecutar:
 - En Windows, `ncurses` no está disponible, por lo que se usa `PDCurses`.
 - El código ensamblador puede requerir ajustes para ejecutarse correctamente en Windows.
 
+## Actualizaciones
+
+**Fecha:** 6 de febrero de 2025
+- Mejoras realizadas:
+  1.**Salida ordenada en columnas:** Se agregó la función `mostrar_salida_ordenada()` para formatear la salida de comandos como `ls`,     alineando elementos en columnas.
+  2.**Redirección de salida estándar:** Se usa un pipe para capturar la salida del proceso hijo y formatearla antes de mostrarla
+  en ncurses.
+  3.**Correcciones menores:** Se añadieron comprobaciones y mejoras en el manejo de memoria y errores.
+
+
 ## Licencia
 Este proyecto está bajo la licencia MIT.
 
